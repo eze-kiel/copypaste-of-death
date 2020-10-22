@@ -13,3 +13,5 @@ $ go run .
 go to http://localhost:1337
 ```
 And now follow the white rabbit :D
+
+Wait... Have you copied those commands ? 
