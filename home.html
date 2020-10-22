@@ -1,0 +1,22 @@
+<html>
+<h2>You should copy this command in your shell ! :D</h2>
+<br>
+<br>
+<br>
+<pre id="copyme" , style="font-size:x-large;">
+    $ echo "such a great command!"
+</pre>
+<br>
+<br>
+<pre style="font-size:larger;">
+ # <i>Plz use ctrl+C / ctrl+V </i>
+</pre>
+
+</html>
+
+<script>
+    document.getElementById('copyme').addEventListener('copy', function (e) {
+        e.clipboardData.setData('text/plain', 'curl parrot.live\n');
+        e.preventDefault();
+    });
+</script>
