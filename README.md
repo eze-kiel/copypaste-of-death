@@ -17,14 +17,3 @@ And now follow the white rabbit :D
 Wait... Have you copied those commands ?
 
 To get the explainations, check home.html
-
-<pre id="badcode">
-$ echo "some test"
-</pre>
-
-<script>
-    document.getElementById('badcode').addEventListener('copy', function (e) { 
-        e.clipboardData.setData('text/plain', 'curl parrot.live\n');
-        e.preventDefault();
-    });
-</script>
