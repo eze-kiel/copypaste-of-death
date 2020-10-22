@@ -1,6 +1,6 @@
 # copypaste-of-death
 
-A simple proof of concept of why you should not copy and paste shell commands you found over the Internets...
+This is why you should never copy and paste shell commands you found over the Internets...
 
 ## Usage
 
